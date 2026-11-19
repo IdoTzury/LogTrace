@@ -45,9 +45,9 @@ LogTrace/
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+.venv/bin/pip install -r requirements.txt
 cp .env.example .env
-uvicorn backend.main:app --reload --port 8000
+.venv/bin/uvicorn backend.main:app --reload --port 8000
 ```
 
 Optionally set `GEMINI_API_KEY` or `OPENAI_API_KEY` in `.env` (or set `AI_PROVIDER=heuristic` to run without an external API key).
