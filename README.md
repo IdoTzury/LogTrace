@@ -10,6 +10,12 @@ AI-assisted DFIR web application for filtering raw logs, generating structured i
 * **Timeline & Exports:** Displays summary dashboard cards, a color-coded incident timeline, and Markdown/JSON report exports.
 * **Security Hardening:** Includes Content Security Policy (CSP) and security headers, restricted CORS origins, upload/text size limits, rate limiting, prompt-injection boundaries, output sanitization, and safe DOM rendering.
 
+## Screeshots
+
+![LogTrace UI - Dashboard](docs/ui.png)
+
+![LogTrace UI - Incident Timeline](docs/example-ssh.png)
+
 ## Project Structure
 
 ```text
